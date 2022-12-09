@@ -44,9 +44,9 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
   <a href="index.jsp">Home</a>
   <a href="about.jsp">About</a>
-  <a href="shop.jsp">Shop</a>
+  <a href="ShowServlet">Shop</a>
   <a href="contact.jsp">Contact</a>
-  <c:if test="${sessionScope.ac.admin == 1}">
+    <c:if test="${sessionScope.ac.admin == 1}">
     <a href="admin.jsp">Product Manager</a>
   </c:if>
 </div>
@@ -60,8 +60,10 @@
             <div class="col-sm-4">
                <div class="search_icon"></div>
             </div>
-            <div class="col-sm-4">
-               <div class="logo"><img src="images/logo.png"></div>
+             <div class="col-sm-4">
+               		<a class="header-img"  href="index.jsp">
+               		 <img class="login-logo" src="images/logo.png" alt="Main menu logo">
+        			</a>
             </div>
             <div class="col-sm-4">
                <div class="togle_3">
@@ -81,7 +83,9 @@
                   </c:if>
                   </div>
                   <div class="middle_main">
-                     <div class="shoping_bag"><img src="images/shopping-bag.png"></div>
+                   <div class="shoping_bag"><a href="cart.jsp"><img src="images/shopping-bag.png"></a></div>
+                  </div>
+                  <div class="middle_main">
                   </div>
                   <div class="right_main">
                      <div class="togle_main"><a class="class="openbtn" onclick="openNav()"><img src="images/togle-menu-icon.png" style="max-width: 100%;"></a></div>
@@ -97,7 +101,7 @@
          <div class="about_img"><img src="images/about-img3.png" style="max-width: 100%;"></div>
          <h2 class="about_text"><strong>About <span style="color: #000;">Us</span></strong></h2>
          <div class="about_middle">
-            <p class="about_welcome">Welcome to Group12_FinalProject</p>
+            <p class="about_welcome">Welcome to GROUP47_DEMO_AURORA</p>
          </div>
       </div>
    </div>
@@ -114,7 +118,7 @@
                   <ul>
                      <li><a href="index.jsp">Home</a></li>
                      <li><a href="about.jsp">About Us</a></li>
-                     <li><a href="shop.jsp">Gallery</a></li>
+                     <li><a href="ShowServlet">Gallery</a></li>
                   </ul>
                </div>
             </div>
@@ -129,7 +133,7 @@
             </div>
             <div class="col-sm-4">
                <h2 class="important_text">Please contact us</h2>
-               <p class="footer_lorem_text">We sell only good</p>
+               <p class="footer_lorem_text">We trade only good</p>
             </div>
          </div>   
       </div>
