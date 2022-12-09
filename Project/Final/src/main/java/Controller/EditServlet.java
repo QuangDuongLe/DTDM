@@ -1,11 +1,11 @@
 package Controller;
 
 import java.io.IOException;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import DAO.DAO;
 
@@ -37,6 +37,7 @@ public class EditServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		try {
 		String id= request.getParameter("id");
 		String pid= request.getParameter("pid");
 		String name= request.getParameter("name");
@@ -50,6 +51,10 @@ public class EditServlet extends HttpServlet {
 		DAO d= new DAO();
 		d.editProduct(i,pid, name, image, p, q, type);
 		response.sendRedirect("admin.jsp");
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 	}
 
 }
