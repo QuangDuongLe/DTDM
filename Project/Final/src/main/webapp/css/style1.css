@@ -67,11 +67,10 @@ a{
   color: white;
 }
 .side-bar li{
-  font-size: 24px;
+  font-size: 20px;
   padding: 10px 40px;
   display: flex;
   align-items: center;
-  color: white;
 }
 
 /*.side-bar li:hover{*/
@@ -199,12 +198,38 @@ a{
   align-items: flex-start;
   flex-wrap: wrap;
 }
+.modal .modal-dialog-table{
+  width: 100%;
+}
 
-.producttb {
-	  width: 100%;
-  max-width: 100%;
-  border-collapse: collapse;
-  align-content: space-between;
+.active-table{
+	font-size: 20px;
+	font-family: "Copperplate" Fantasy;
+}
+
+.block-4-image {
+	width: 150px;
+	height: 150px;
+}
+
+.import{
+    display: flex;
+    align-content: space-between;
+      justify-content: space-between;
+    width:100%;
+    position: center;
+    height: 50px;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+    background: white;
+    color: #1744A6;
+    font-weight: bold;
+}
+.import a:hover{
+    color: black;
 }
 table {
   width: 100%;
@@ -234,22 +259,6 @@ tbody tr:nth-child(even) {
   background: #f4f4f4;
 } 
 
-.import{
-	display: flex;
-	align-content: space-between;
-  	justify-content: space-between;
-	width:100%;
-	position: center;
-	height: 50px;
-	text-align: right;
-	padding-right: 30px;
-	padding-top: 10px;
-	padding-left: 30px;
-	font-size: 25px;
-	background: white;
-	color: #1744A6;
-	font-weight: bold;
-}
-.import a:hover{
-	color: black;
+.modal .modal-dialog-table{
+  width: 100%;
 }

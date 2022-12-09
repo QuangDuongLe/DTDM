@@ -211,7 +211,7 @@ button {
      padding-bottom: 0px;
 }
 
-.logo{ width: 100%; float: left; text-align: center; position: center;}
+.logo{ width: 100%; float: left; text-align: center; }
 .search_icon{ width: 100%; float: left; }
 .header_section {
 	width: 100%;
@@ -627,7 +627,6 @@ button.main_bt a:hover { color: #faf9f9; }
     color: #ffffff;
     margin: 0px;
 }
-.login-logo{position: center; padding-left: 100px;}
 
 .input-group>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
     border-top-left-radius: 0;
@@ -735,13 +734,11 @@ button.main_bt a:hover { color: #faf9f9; }
 .motor li image{
     display: inline-block;
 }
+.type{
+	display:block;
+}
+.login-logo{position: center; padding-left: 180px;}
 
-.block-4 {
-	width: 200px;
-	height: 150px;
-}
-.block-4-image {
-	width: 200px;
-	height: 150px;
-}
+
+
 
