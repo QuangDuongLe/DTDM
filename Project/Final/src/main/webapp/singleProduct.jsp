@@ -122,9 +122,7 @@
 				</div>
 			</div>
 		</div>
-		<c:if test="${mess != null }">
-			<div class="alert alert-success">${mess}</div>
-		</c:if>
+		
 		<form action="contact.jsp" method="post">
 			<div class="site-section">
 				<div class="container">
@@ -151,6 +149,7 @@
 
 							</div>
 							<p>
+								<a href="AddtocartServlet?id=${detail.id}">Add to cart</a>
 								<button type="submit" class="buy-now btn btn-sm btn-primary">
 									Contact us</button>
 							</p>
@@ -205,7 +204,7 @@
    </div>
    <!-- footer section start -->
    <!-- copyright section start -->
-   <div class="copyright_text">Copyright 2022 All Right Reserved By Group12</div>
+   <div class="copyright_text">Copyright 2022 All Right Reserved By Group47</div>
  <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>

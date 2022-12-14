@@ -6,3 +6,5 @@
 # Tổng quan về Amazon Aurora
 Amazon Aurora là một hệ thống quản lý cơ sở dữ liệu quan hệ (RDBMS) được xây dựng cho nền tảng đám mây với khả năng tương thích hoàn toàn với MySQL và PostgreSQL. Aurora mang đến cho bạn hiệu suất và độ sẵn sàng của cơ sở dữ liệu cấp thương mại với giá chỉ bằng một phần mười.
 # Tổng quan về Project
+1. Link video báo cáo lần 1: https://www.youtube.com/watch?v=5Bsl5E_1FEQ 
+2. Link video báo cáo lần 2: 

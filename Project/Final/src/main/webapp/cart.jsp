@@ -270,7 +270,7 @@ if(cart_list != null)
    </div>
    <!-- footer section start -->
    <!-- copyright section start -->
-   <div class="copyright_text">Copyright 2022 All Right Reserved By Group12</div>
+   <div class="copyright_text">Copyright 2022 All Right Reserved By Group47</div>
 
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
