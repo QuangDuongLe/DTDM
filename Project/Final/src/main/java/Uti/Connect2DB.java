@@ -12,9 +12,9 @@ public class Connect2DB {
 		try {
 			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 			
-			String url= "jdbc:mySQL://us-cdbr-east-06.cleardb.net:3306/heroku_d2e6d62653705a3";
-			String username= "b75d39db302d19";
-			String password= "02eeb543";
+			String url= "jdbc:mySQL://projectaurora-instance-1.cvwolnsussjr.us-east-1.rds.amazonaws.com:3306/Motor";
+			String username= "admin";
+			String password= "12345678";
 			
 			c = DriverManager.getConnection(url, username, password);
 		}catch (SQLException e) {
