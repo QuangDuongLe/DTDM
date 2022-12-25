@@ -46,7 +46,7 @@
 <c:if test="${sessionScope.ac.admin != 1}">
 	<center>
 			<h1> 
-				"STOP HERE" - G12_Manager
+				"STOP HERE" - G47_Manager
 			</h1>
 	</center>
 </c:if>
